@@ -13,6 +13,7 @@ namespace Mic.Volo.HelloWorldConsoleApp
             Console.WriteLine("Hello World!");
             Console.WriteLine($"{(Environment.ProcessorCount)}");
             Console.WriteLine("{0}",Environment.OSVersion);
+
         }
     }
 }
