@@ -10,7 +10,8 @@ namespace Mic.Volo.SomeEazyWork
     {
         static void Main(string[] args)
         {
-
+            Car mycar = new Car();
+            mycar.PrintState();
         }
     }
 }

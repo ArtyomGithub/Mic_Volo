@@ -18,6 +18,11 @@ namespace Mic.Volo.SomeEazyWork
         {
             carrSpeed += delta;
         }
+        public Car()
+        {
+            petName = " ";
+            carrSpeed = 0;
+        }
 
     }
 }
