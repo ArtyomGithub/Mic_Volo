@@ -10,6 +10,7 @@ namespace Mic.Volo.SomeEazyWork
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
