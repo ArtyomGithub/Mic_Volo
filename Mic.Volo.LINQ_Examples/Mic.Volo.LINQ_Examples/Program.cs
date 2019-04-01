@@ -95,6 +95,7 @@ namespace Mic.Volo.LINQ_Examples
                 Console.WriteLine("Item: {0}",game);
             }
             Console.WriteLine();
+            VeryComplexQueryExpression.QueryStringWithDelegates();
         }
     }
 }
