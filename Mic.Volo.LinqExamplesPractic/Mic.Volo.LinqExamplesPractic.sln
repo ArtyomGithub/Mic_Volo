@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mic.Volo.LinqExamplesPractic", "Mic.Volo.LinqExamplesPractic\Mic.Volo.LinqExamplesPractic.csproj", "{97898C7A-0A3F-46D9-A348-6A862023F866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97898C7A-0A3F-46D9-A348-6A862023F866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97898C7A-0A3F-46D9-A348-6A862023F866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97898C7A-0A3F-46D9-A348-6A862023F866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97898C7A-0A3F-46D9-A348-6A862023F866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06DAF501-CDD7-4F86-B169-65B333FF80E3}
+	EndGlobalSection
+EndGlobal
