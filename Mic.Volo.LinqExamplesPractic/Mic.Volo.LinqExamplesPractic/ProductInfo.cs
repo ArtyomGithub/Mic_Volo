@@ -9,12 +9,12 @@ namespace Mic.Volo.LinqExamplesPractic
     class ProductInfo
     {
         public string Name { get; set; }
-        public string Descrition { get; set; }
+        public string Descrpition { get; set; }
         public int NumberInStock { get; set; }
         public override string ToString()
         {
             return string.Format("Name={0}, Description={1}," +
-                "Number in Stock={2}", Name, Descrition, NumberInStock);
+                "Number in Stock={2}", Name, Descrpition, NumberInStock);
         }
     }
 }
