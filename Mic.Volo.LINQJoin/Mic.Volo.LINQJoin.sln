@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mic.Volo.LINQJoin", "Mic.Volo.LINQJoin\Mic.Volo.LINQJoin.csproj", "{AC45C418-EE01-4F4E-9FCC-79C7FE8F98FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC45C418-EE01-4F4E-9FCC-79C7FE8F98FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC45C418-EE01-4F4E-9FCC-79C7FE8F98FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC45C418-EE01-4F4E-9FCC-79C7FE8F98FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC45C418-EE01-4F4E-9FCC-79C7FE8F98FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1C9A3FF-988B-4A71-80ED-6DC11818AE3B}
+	EndGlobalSection
+EndGlobal
