@@ -93,8 +93,8 @@ namespace Mic.Volo.FibonacciBig
             //    Console.WriteLine();
             //    Console.ReadKey();
             //}
-            var collection = Enumerable.Range(0, 1000);
-            var numgroup = from i in collection
+            var tvercol = Enumerable.Range(0, 1000);
+            var numgroup = from i in tvercol
                            group i by i.ToString().Length;
             foreach (IGrouping<int,int> item in numgroup)
             {
