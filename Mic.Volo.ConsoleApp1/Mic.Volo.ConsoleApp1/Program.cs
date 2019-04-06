@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -24,6 +25,27 @@ namespace Mic.Volo.ConsoleApp1
             {
                 Console.WriteLine(iP.ToString());
             }
+            Console.WriteLine("*********");
+
+            using (WebClientMy ob = new WebClientMy())
+            {
+                ob.DownloadHTML("https://mic.am");
+            }
+
+            WebClient web = new WebClient();
+            using (Stream stream = web.OpenRead("https://norvig.com/big.txt"))
+            {
+                using (StreamReader reader = new StreamReader(stream))
+                {
+                    string line = "";
+                    while((line=reader.ReadLine())!=null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+            Console.WriteLine("File downloaded");
+
         }
     }
 }
